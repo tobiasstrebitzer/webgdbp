@@ -1,0 +1,48 @@
+div#code-editor {
+  background: #F5F5F5;
+  border-top: 1px solid #CCCCCC;
+}
+
+div.CodeMirror {
+  font-size: 13px;
+  border: none;
+  height: 100%;
+}
+
+.CodeMirror-hscrollbar, .CodeMirror-vscrollbar {
+  display: none !important;
+}
+
+.CodeMirror-scroll {
+  overflow: hidden;
+}
+
+.CodeMirror-gutters {
+  margin-left: -1px;
+}
+
+.breakpoints {width: .8em;}
+.breakpoint { color: #822; }
+.CodeMirror {border: 1px solid #aaa;}
+
+i.cm-breakpoint {
+  color: rgb(112, 127, 177);
+  font-size: 14px;
+}
+
+i.cm-breakpoint.active {
+  text-shadow: 0px 0px 4px #C49696;
+  color: #9B2D2D;
+  font-size: 17px;
+  font-weight: bold;
+  top: -2px;
+  position: absolute;
+  left: 1px;
+  -webkit-animation: colorPulse 1s infinite alternate;
+}
+
+.line-breakpoint {
+  background: #DFE9F1;
+}
+
+@-webkit-keyframes colorPulse { 0% {color: #9B2D2D;} 50% {color: #CA7F2D;} 100% {color: #9B2D2D;} }

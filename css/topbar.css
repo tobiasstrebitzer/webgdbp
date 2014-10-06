@@ -1,0 +1,74 @@
+div.top-bar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 23px;
+  background: -webkit-linear-gradient(#E5E5E5, #AEAEAE);
+  border-bottom: 1px solid #696969;
+  -webkit-app-region: drag;
+  line-height: 22px;
+  display: -webkit-box;
+  z-index: 1000000;
+  box-shadow: 0px 1px 0px #F5F5F5 inset;
+  text-shadow: 0px 1px 0px #EEEEEE;
+}
+
+div.top-bar-left {
+  text-align: left;
+  -webkit-box-flex:1.0;
+  width: 100px;
+}
+
+div.top-bar-left a {
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  float: left;
+}
+
+div.top-bar-right a {
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+  float: right;
+}
+
+div.top-bar-left a, div.top-bar-right a {
+  display: inline-block;
+  padding: 0px 4px;
+  margin: 0px;
+  color: #666;
+  text-decoration: none;
+  text-align: center;
+  line-height: 22px;
+  height: 22px;
+  font-size: 10px;
+  width: 24px;
+  text-shadow: 0px 1px 0px #EEE;
+}
+
+div.top-bar-left a:hover {
+  border-left: 1px solid rgba(0,0,0,0.2);
+}
+
+div.top-bar-right a:hover {
+  border-right: 1px solid rgba(0,0,0,0.2);
+}
+
+div.top-bar-left a:hover, div.top-bar-right a:hover {
+  background: -webkit-linear-gradient(#666666, #222);
+  color: #FFFFFF;
+  text-shadow: 0px 1px 0px #000000;
+}
+
+div.top-bar-center {
+  text-align: center;
+  -webkit-box-flex:1.0;
+  font-weight: 500;
+  color: #333333;
+}
+
+div.top-bar-right {
+  text-align: right;
+  -webkit-box-flex:1.0;
+  width: 100px;
+}

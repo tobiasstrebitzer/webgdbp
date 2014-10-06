@@ -1,0 +1,23 @@
+span.browser-type {
+
+}
+
+span.browser-type:before {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+  margin-right: 4px;
+  width: 11px;
+  display: inline-block;
+  text-align: right;
+}
+
+.browser-type-folder:before {
+  content: "\f07b";
+}
+
+.browser-type-file:before {
+  content: "\f15c";
+}

@@ -1,0 +1,54 @@
+.sidebar {
+  position: absolute;
+  left: 0px;
+  top: 23px;
+  bottom: 25px;
+  overflow: visible;
+  float: left;
+  z-index: 123123;
+  color: #FFF;
+  font-size: 12px;
+  background: #E5E5E5;
+  width: 24px;
+  border-right: 1px solid #AAA;
+  box-shadow: -1px 8px 3px #C9C9C9 inset;
+}
+
+ol#action-container {
+  list-style: none;
+  margin-top: auto;
+  top: 50%;
+  position: absolute;
+}
+
+ol#action-container li {
+  display: block;
+  float: left;
+  margin: 0px 0px 2px 0px;
+}
+
+ol#action-container li a {
+  display: block;
+  width: 22px;
+  height: 21px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 21px;
+  color: #444;
+}
+
+ol#action-container li a:hover {
+  color: #000;
+}
+
+ol#action-container li a:active {
+  padding-left: 1px;
+  padding-top: 1px;
+}
+
+ol#action-container li a.disabled {
+  color: #CCC;
+  background: none;
+  box-shadow: none;
+  
+}

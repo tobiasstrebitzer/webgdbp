@@ -1,0 +1,20 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "background.js" ]
+      }
+   },
+   "description": "WebGDBp is a Google Chrome implementation of the gdbp protocol, allowing you to debug php code in your favourite browser.",
+   "icons": {
+      "128": "images/logo/webgdbp-128.png",
+      "16": "images/logo/webgdbp-16.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjythIE20MaA9vGUUsXXNXRYjot39HJgHnALjZxC6cDnhzZUelQB9X+6lYXCqz/jFcTg/gY85qcNrfbx6joSdeToY3/jTJHrleB4pGqPUXV26QnJKrMpoywdvZQ0n/5r1qPm12yJCSCFqSQYA9ZpmkFawIPeVhllJ9jnxFlxukPl7bwFjLPRIkQ52k4/SL6D3H1k55not8mhA3fBCBZO0w+yzrY3xElFOrKKQVpVnjQEftCxXiATp47YqgysRUseuBN1jrd9u46k91tk0Q8WsJuHLXmeYOPIdvOAioT8OWKY1MCeiMBWfJTXpZEpv78GCA+MK/aNA44QYzeLefz9MHQIDAQAB",
+   "manifest_version": 2,
+   "name": "WebGDBp",
+   "permissions": [ "app.runtime", {
+      "socket": [ "tcp-listen::9000", "tcp-connect:*:9002" ]
+   } ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.3.0"
+}
